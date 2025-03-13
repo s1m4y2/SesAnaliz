@@ -49,7 +49,7 @@ SesAnalizProjesi
 │   ├── src/
 │   │   ├── App.tsx                    # Ana React bileşeni
 │   │   ├── styles.css                  # UI stilleri
-
+```
 ---
 
 ## 📦 Kurulum ve Çalıştırma  
