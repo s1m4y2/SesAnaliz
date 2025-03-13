@@ -28,26 +28,28 @@ Bu proje, ses dosyalarını analiz ederek konuşma metnine dönüştüren, kelim
 
 ---
 
-## 📂 Proje Yapısı  
+## 📦 Proje Dizini  
 
-📦 SesAnalizProjesi 
-├── 📁 Backend 
-├── 📁 Controllers 
-├── AnalysisController.cs # API uç noktaları 
-├── AudioController.cs 
-├── UserController.cs  
-├── 📁 PythonScripts  
-├── analyze_audio.py # Ses işleme betiği 
-├── sentiment_analysis.py 
-├── speech_to_text.py 
-├── topic_modelling.py 
-├── train_voice_model.py 
-├── Program.cs # ASP.NET Core başlangıcı 
-├── appsettings.json # API yapılandırma dosyası 
-├── 📁 Frontend 
-├── src/  
-├── App.tsx # Ana React bileşeni
-├── styles.css # UI stilleri 
+```bash
+SesAnalizProjesi
+├── 📁 Backend
+│   ├── 📁 Controllers
+│   │   ├── AnalysisController.cs   # API uç noktaları
+│   │   ├── AudioController.cs
+│   │   ├── UserController.cs
+│   ├── 📁 PythonScripts
+│   │   ├── analyze_audio.py         # Ses işleme betiği
+│   │   ├── sentiment_analysis.py
+│   │   ├── speech_to_text.py
+│   │   ├── topic_modelling.py
+│   │   ├── train_voice_model.py
+│   ├── Program.cs                    # ASP.NET Core başlangıcı
+│   ├── appsettings.json               # API yapılandırma dosyası
+├── 📁 Frontend
+│   ├── src/
+│   │   ├── App.tsx                    # Ana React bileşeni
+│   │   ├── styles.css                  # UI stilleri
+
 ---
 
 ## 📦 Kurulum ve Çalıştırma  
@@ -109,7 +111,9 @@ Body: { file: ses_dosyası.mp3 }
 4️⃣ **Pull request gönderin** 🚀 
 
 
-## ⭐ Projeyi beğendiyseniz yıldız bırakmayı unutmayın!  
+
+
+⭐ **Projeyi beğendiyseniz yıldız bırakmayı unutmayın!**
 
 
 
