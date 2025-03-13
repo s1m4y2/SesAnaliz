@@ -17,9 +17,6 @@ Veri Tabanı	MSSQL veya MySQL
 Ses İşleme	FFmpeg, Google Speech-to-Text API
 Testler	Selenium, NUnit, XUnit
 📂 Proje Yapısı
-bash
-Kopyala
-Düzenle
 📦 SesAnalizProjesi
 ├── 📁 Backend
 │   ├── 📁 Controllers
@@ -43,37 +40,21 @@ Düzenle
 └── README.md
 📦 Kurulum ve Çalıştırma
 1️⃣ Backend (ASP.NET Core API)
-sh
-Kopyala
-Düzenle
 cd Backend
 dotnet restore
 dotnet run
 2️⃣ Python Modüllerini Yükleyin
-sh
-Kopyala
-Düzenle
 pip install -r requirements.txt
 3️⃣ Frontend (React.js)
-sh
-Kopyala
-Düzenle
 cd Frontend
 npm install
 npm start
 🎯 API Kullanımı
 🎤 Canlı Ses Kaydı İşleme
-css
-Kopyala
-Düzenle
 POST /api/analysis/process-live-audio
 Content-Type: multipart/form-data
 Body: { file: ses_dosyası.wav }
 ✅ Yanıt:
-
-json
-Kopyala
-Düzenle
 {
   "message": "Analiz tamamlandı!",
   "text": "Merhaba dünya",
@@ -81,17 +62,10 @@ Düzenle
   "topic": "Genel"
 }
 📁 Yüklenen Ses Dosyası İşleme
-css
-Kopyala
-Düzenle
 POST /api/analysis/process-audio
 Content-Type: multipart/form-data
 Body: { file: ses_dosyası.mp3 }
 ✅ Yanıt:
-
-json
-Kopyala
-Düzenle
 {
   "message": "Analiz tamamlandı!",
   "text": "Python öğreniyorum",
